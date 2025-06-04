@@ -30,12 +30,11 @@ Built with Laravel, this platform offers a seamless shopping experience with fea
 
 - 🛍️ Product catalog with categories
 - 💖 Wishlist functionality
-- 🛒 Shopping cart system
+- 🛒 Shopping cart system 
 - 🔐 User authentication
 - 🔍 Advanced product search
 - 📱 Responsive design
-- 🌍 Multi-language support (French/English)
-- 💳 Payment gateway integration
+- 🌍 contact
 - 📊 Admin dashboard
 
 ## Installation
@@ -97,24 +96,6 @@ Start development server:
 ```bash
 php artisan serve
 ```
-Configuration
-Important Environment Variables
-APP_NAME=Emeraude Jewelry
-
-APP_URL=http://localhost:8000
-
-MAIL_* - Email configuration
-
-STRIPE_KEY - Payment gateway keys
-
-STRIPE_SECRET
-
-Admin Access
-Default admin account is created by seeder:
-
-Email: admin@emeraude.com
-
-Password: password
 
 Development
 Running Tests
