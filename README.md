@@ -77,10 +77,11 @@ php artisan key:generate
 ```
 Configure database in .env:
 
-ini
+```ini
 DB_DATABASE=emeraude_jewelry
 DB_USERNAME=root
 DB_PASSWORD=
+```
 Run migrations and seeders:
 
 ```bash
