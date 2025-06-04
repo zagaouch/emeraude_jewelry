@@ -57,20 +57,24 @@ Built with Laravel, this platform offers a seamless shopping experience with fea
    ```
 2. Install PHP dependencies:
 
-bash
+```bash
 composer install
+```
 Install JavaScript dependencies:
 
-bash
+```bash
 npm install
+```
 Create environment file:
 
-bash
+```bash
 cp .env.example .env
+```
 Generate application key:
 
-bash
+```bash
 php artisan key:generate
+```
 Configure database in .env:
 
 ini
@@ -79,16 +83,19 @@ DB_USERNAME=root
 DB_PASSWORD=
 Run migrations and seeders:
 
-bash
+```bash
 php artisan migrate --seed
+```
 Compile assets:
 
-bash
+```bash
 npm run dev
+```
 Start development server:
 
-bash
+```bash
 php artisan serve
+```
 Configuration
 Important Environment Variables
 APP_NAME=Emeraude Jewelry
@@ -110,27 +117,25 @@ Password: password
 
 Development
 Running Tests
-bash
+```bash
 php artisan test
+```
 Compiling Assets
 For development:
 
-bash
+```bash
 npm run dev
+```
 For production:
 
-bash
+```bash
 npm run build
+```
 Database Structure
 Database Schema
 
-Deployment
-For deployment instructions, please see DEPLOYMENT.md
-
 Technologies Used
-Laravel 10
-
-Livewire
+Laravel 12
 
 Alpine.js
 
@@ -138,13 +143,8 @@ Tailwind CSS
 
 MySQL
 
-Stripe Payment Gateway
-
-Contributing
-Please see CONTRIBUTING.md for details.
-
 License
 Emeraude Jewelry is open-source software licensed under the MIT license.
 
 Contact
-For inquiries, please contact: contact@emeraude-jewelry.com
+For inquiries, please contact: i.zagaouch@gmail.com
