@@ -51,7 +51,7 @@ Built with Laravel, this platform offers a seamless shopping experience with fea
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/zagaouch/emeraude-jewelry.git
+   git clone https://github.com/zagaouch/emeraude_jewelry.git
    cd emeraude-jewelry
    ```
 2. Install PHP dependencies:
